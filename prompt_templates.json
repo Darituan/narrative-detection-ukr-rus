@@ -1,0 +1,18 @@
+[
+  {
+    "ENG": "Given the following text and a list of narratives, please determine which narrative best describes the content:\n\nText: {text}\n\nNarratives:\n{narratives}\n{\"answer\": ",
+    "UKR": "З огляду на наступний текст і список наративів, будь ласка, визначте, який наратив найкраще описує зміст тексту:\n\nТекст: {text}\n\nНаративи:\n{narratives}\n{\"відповідь\": ",
+    "RUS": "Учитывая следующий текст и список нарративов,пожалуйста, определите, какой нарратив лучше всего описывает содержание текста:\n\nТекст: {text}\n\nНарративы:\n{narratives}\n{\"ответ\": "
+  },
+  {
+    "ENG":
+    [
+      {"role": "system", "content": "You are an expert in identifying narratives in social media texts"},
+      {"role": "user", "content": "Given the following text and a list of narratives, please determine which narrative best describes the content:\n\nText: Зеленський шукає причини для звільнення Залужного\n\nNarratives:\n1. Мобілізація в Україні порушує всі стандарти\n2. Між Володимиром Зеленським та Валерієм Залужним існує конфлікт\n3. Україна і Захід свідомо затягують війну\n4. None of the above"},
+      {"role": "assistant", "content": "Answer: 2\nExplanation: Zelensky looking for reasons to fire Zaluzhny indicates a conflict between them. Therefore, narrative 2 is the correct answer"},
+      {"role": "user", "content": "Given the following text and a list of narratives, please determine which narrative best describes the content:\n\nText: {text}\n\nNarratives:\n{narratives}"}
+    ],
+    "UKR": [],
+    "RUS": []
+  }
+]
